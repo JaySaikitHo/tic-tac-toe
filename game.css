@@ -1,0 +1,89 @@
+body {
+	
+	margin: 0;
+	font-family: "Montserrat","Avenir";
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	line-height: 1.1;
+	font-weight: normal;
+	background: steelblue;
+	margin: 0;
+	text-transform: uppercase;
+	padding: 20px 0;
+}
+
+#container {
+	max-width: 600px;
+	margin: 20px auto;
+
+}
+
+.square {
+	text-align:center;
+	font-size: 128;
+	
+	
+	width: 28%;
+	border: 1px ridge grey;
+	max-height: 0px;
+	
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 15%;
+	transition: background 0.6s;
+	-webkit-transition: 0.6s;
+	-moz-transition: background 0.6s;
+}
+
+.square > img {
+	padding-top: 10px;
+	width: auto;
+	height: auto;
+	max-width: 90%;
+	max-height: 90%;
+}
+#stripe {
+	display:inline-block;
+	background-color: white;
+	height: 30px;
+	text-align: center;
+	color: black;
+}
+
+button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.3s;
+	outline: none;
+}
+
+button:hover {
+	color: white;
+	background: steelblue;
+}
+
+
+
+.p2Style {
+	font-size: inherit;
+	padding-left: 30px;
+	font-weight: 700;
+	color: rgb(105, 8, 29);
+}
+
+.p1Style {
+	font-size: inherit;
+	padding-left: 30px;
+	font-weight: 700;
+	color: rgb(8, 133, 75);
+}
